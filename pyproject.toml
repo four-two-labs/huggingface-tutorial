@@ -1,0 +1,24 @@
+[project]
+name = "huggingface-tutorial"
+version = "0.0.1"
+requires-python = ">=3.12"
+license = {text = "GPL-3.0-or-later"}
+authors = [
+    {name = "Ali Mosavian", email = "ali@42labs.ai"},
+]
+dependencies = [
+    "accelerate==1.6.0",
+    "hf-transfer==0.1.9",
+    "huggingface-hub[hf_transfer]==0.30.2",
+    "ipywidgets==8.1.5",
+    "jupyterlab==4.4.0",
+    "jupytext==1.17.0",
+    "protobuf==6.30.2",
+    "sentencepiece==0.2.0",
+    "torch==2.6.0",
+    "transformers==4.51.1",
+]
+
+[build-system]
+requires = ["setuptools>=39.0.1"]
+build-backend = "setuptools.build_meta"
