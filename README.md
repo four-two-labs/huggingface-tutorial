@@ -1,6 +1,6 @@
 # Local LLM Streaming Tutorial
 
-This repository provides an interactive tutorial (`local_llm_tutorial.ipynb`) demonstrating how to implement streaming text generation using local language models with the Hugging Face Transformers library.
+This repository provides an interactive tutorial ([local_llm_tutorial.ipynb](./local_llm_tutorial.ipynb)) demonstrating how to implement streaming text generation using local language models with the Hugging Face Transformers library.
 
 ## 🌟 Overview
 
