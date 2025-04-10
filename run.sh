@@ -17,8 +17,15 @@ if [ ! -d "${SCRIPT_DIR}/.pyenv" ]; then
     uv venv -p ">=3.12" "${SCRIPT_DIR}/.pyenv"    
 fi
 
+# Set the VENV_BIN variable based on the operating system
+if [[ "$OSTYPE" == "msys" ]]; then
+    VENV_BIN="$SCRIPT_DIR/.pyenv/Scripts"
+else
+    VENV_BIN="$SCRIPT_DIR/.pyenv/bin"
+fi
+
 # Install dependencies
-source "${SCRIPT_DIR}/.pyenv/bin/activate"   
+source "$VENV_BIN/activate"
 uv pip install -e "${SCRIPT_DIR}"
 
-$VIRTUAL_ENV/bin/jupyter lab local_llm_demo.ipynb
+$VENV_BIN/jupyter lab local_llm_tutorial.ipynb
