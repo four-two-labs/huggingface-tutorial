@@ -146,7 +146,7 @@ The `run.sh` script, after completing the setup, will automatically launch Jupyt
 3. The `local_llm_demo.ipynb` notebook will be automatically opened.
 4. Follow the instructions and run the cells interactively within the notebook.
 
-## 📝 Tutorial Content (`local_llm_demo.ipynb`)
+## 📝 Tutorial Content ([local_llm_tutorial.ipynb](./local_llm_tutorial.ipynb))
 
 * **Introduction & Abstract**: Sets the stage for the tutorial.
 * **Model Selection**: Allows choosing different models from the Hugging Face Hub.
