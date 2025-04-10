@@ -2,7 +2,7 @@
 
 This repository provides an interactive tutorial ([local_llm_tutorial.ipynb](./local_llm_tutorial.ipynb)) demonstrating how to implement streaming text generation using local language models with the Hugging Face Transformers library.
 
-## 🌟 Overview
+## Overview
 
 The tutorial guides you through:
 
@@ -100,7 +100,7 @@ If you're behind a corporate proxy or firewall that blocks the HuggingFace Hub A
 
 This simpler approach allows you to organize models in your own directory structure without worrying about HuggingFace's cache format.
 
-## 🚀 Setup and Installation
+## Setup and Installation
 
 1. **Clone the repository:**
    ```bash
@@ -134,7 +134,7 @@ This simpler approach allows you to organize models in your own directory struct
    
    > **Note for Windows Users**: If using WSL, ensure you're in the Linux environment before running these commands. If using Git Bash, you might need to modify some commands or create a Windows-compatible batch file equivalent.
 
-## ▶️ Running the Tutorial
+## Running the Tutorial
 
 The `run.sh` script, after completing the setup, will automatically launch Jupyter Lab with the tutorial notebook.
 
@@ -143,10 +143,10 @@ The `run.sh` script, after completing the setup, will automatically launch Jupyt
    ./run.sh
    ```
 2. Jupyter Lab will open in your web browser (or provide a URL to copy/paste).
-3. The `local_llm_demo.ipynb` notebook will be automatically opened.
+3. The `local_llm_tutorial.ipynb` notebook will be automatically opened.
 4. Follow the instructions and run the cells interactively within the notebook.
 
-## 📝 Tutorial Content ([local_llm_tutorial.ipynb](./local_llm_tutorial.ipynb))
+## Tutorial Content ([local_llm_tutorial.ipynb](./local_llm_tutorial.ipynb))
 
 * **Introduction & Abstract**: Sets the stage for the tutorial.
 * **Model Selection**: Allows choosing different models from the Hugging Face Hub.
